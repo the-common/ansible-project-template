@@ -1,4 +1,4 @@
-# Inventory file for Ansible
+# Inventory file for the production environment
 #
 # References:
 #   - How to build your inventory — Ansible Documentation
