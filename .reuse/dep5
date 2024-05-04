@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: The Common Ansible Project Template
-Upstream-Contact: Issues · the-common/ansible-project-template <https://github.com/the-common/ansible-project-template/issues>
-Source: https://github.com/the-common/ansible-project-template
+Upstream-Contact: Issues · The Common / The Common Ansible Project Template · GitLab <https://gitlab.com/the-common/ansible-project-template/-/issues>
+Source: https://gitlab.com/the-common/ansible-project-template
 
 # Sample paragraph, commented out:
 #
@@ -10,7 +10,7 @@ Source: https://github.com/the-common/ansible-project-template
 # License: ...
 
 Files:
-    README.md
+    *README.md
     */README.md
-Copyright: 2021 The Common Ansible Project Template Contributors <https://github.com/the-common/ansible-project-template/graphs/contributors>
-License: CC-BY-SA-4.0
+Copyright: 2024 The Common Ansible Project Template Contributors <https://github.com/the-common/ansible-project-template/graphs/contributors>
+License: CC-BY-SA-4.0+
