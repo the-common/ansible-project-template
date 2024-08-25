@@ -92,3 +92,7 @@
 # Ignore roles which were acquire externally
 /playbooks/roles/*
 !/playbooks/roles/README.md
+
+# Ignore collections which were acquire externally
+/playbooks/collections/*
+!/playbooks/collections/README.md
