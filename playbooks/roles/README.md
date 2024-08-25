@@ -8,7 +8,9 @@ A role can define [variables](https://docs.ansible.com/ansible/latest/reference_
 
 The following materials are referenced during the writing of this README:
 
+* [Roles — Ansible Community Documentation](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_reuse_roles.html)  
+  Explains the basic information of Roles in Ansible.
 * [Re-using Ansible artifacts — Ansible Community Documentation](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_reuse.html)  
-  Explains how to reuse Ansible artifacts.
+  Explains how to reuse Ansible artifacts in general.
 * [Roles — Glossary — Ansible Community Documentation](https://docs.ansible.com/ansible/latest/reference_appendices/glossary.html#term-Roles)  
   Explains the usage of the "role" Ansible term.
