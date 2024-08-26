@@ -7,6 +7,12 @@ set \
     -o errexit \
     -o nounset
 
+if ! shopt -s nullglob; then
+    printf \
+        'Unable to set the nullglob shell option.\n' \
+        1>&2
+fi
+
 script="${BASH_SOURCE[0]}"
 if ! script="$(
     realpath \
