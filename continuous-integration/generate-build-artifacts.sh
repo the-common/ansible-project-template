@@ -111,7 +111,7 @@ if ! ansible-galaxy install "${ansible_galaxy_opts[@]}"; then
 fi
 
 printf \
-    'Info: Injecting the external Ansible roles...\n'
+    'Info: Injecting external Ansible resources...\n'
 for role in playbooks/roles/*/; do
     role_dir="${role%/}"
     role_name="${role_dir##*/}"
