@@ -1,0 +1,5 @@
+- name: Ensure that the managed nodes are accessible
+  hosts: all
+  tasks:
+    - name: Ensure that the managed nodes are accessible
+      ansible.builtin.ping:
