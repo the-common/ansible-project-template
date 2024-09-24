@@ -2,6 +2,7 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0 OR LicenseRef-Apache-2.0-If-Not-Used-In-Template-Projects
 - name: Ensure that the managed nodes are accessible
   hosts: all
+  gather_facts: false
   tasks:
     - name: Ensure that the managed nodes are accessible
       ansible.builtin.ping:
