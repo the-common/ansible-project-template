@@ -19,3 +19,7 @@ exclude_paths:
   # Don't check external Ansible resources
   - playbooks/roles/*/
   - playbooks/collections/*/
+
+skip_list:
+  # FALSE_POSITIVE: The proposed style isn't better than name-rescue-block
+  - key-order[task]
