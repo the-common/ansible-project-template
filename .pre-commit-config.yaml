@@ -75,6 +75,6 @@ repos:
           )$
 
   - repo: https://github.com/ansible/ansible-lint
-    rev: v24.7.0
+    rev: v26.1.0
     hooks:
       - id: ansible-lint
