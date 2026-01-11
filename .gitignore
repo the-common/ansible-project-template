@@ -104,4 +104,4 @@
 !/.ansible-lint
 
 # Don't track unpacked product files
-/ansible-project-template-*/
+/project-name-*/

@@ -49,7 +49,9 @@ A sensible Ansible project template for initializing a new project.
       The name of the main license of the project.
     + `_license_url_`  
       the URL of the main license of the project.
-1. Replace the `project-name` placeholder text in [the compose.yml Compose configuration file](compose.yml) to your project's hostname-friendly name.
+1. Replace the `project-name` placeholder text in the following files to your project's hostname-friendly name:
+    + [The compose.yml Compose configuration file](compose.yml)
+    + [The Git ignore configuration file](.gitignore)
 1. Replace the `SPDX-FileCopyrightText` and the `SPDX-License-Identifier` fields of the [REUSE.toml machine-readable copyright declaration document](REUSE.toml) with appropriate content.
 1. Run the following commands(or its equivalent operation) to remove the template-only custom license:
 
