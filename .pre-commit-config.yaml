@@ -21,6 +21,9 @@ repos:
       - id: check-symlinks
       - id: check-vcs-permalinks
       - id: check-yaml
+        args:
+          # Support Ansible Vault constructs
+          - --unsafe
       - id: detect-aws-credentials
         args:
           - --allow-missing-credentials
